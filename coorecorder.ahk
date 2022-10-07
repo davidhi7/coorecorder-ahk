@@ -2,7 +2,7 @@
 #Warn  ; Enable warnings to assist with detecting common errors.
 #SingleInstance Force
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetTitleMatchMode, RegEx  ; A
+SetTitleMatchMode, RegEx  ; Allow regular expressions for window title matching
 
 #If WinActive("ahk_exe CooRecorder[0-9]*.exe")
 ; enable simple mouse scrolling
