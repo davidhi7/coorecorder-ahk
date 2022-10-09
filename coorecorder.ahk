@@ -8,6 +8,8 @@ SetTitleMatchMode, RegEx  ; Allow regular expressions for window title matching
 ; enable simple mouse scrolling
 WheelUp::Send {Up}
 WheelDown::Send {Down}
+WheelLeft::Send {Left}
+WheelRight::Send {Right}
 
 ; enable zooming with ctrl + mousewheel
 ^WheelUp::
